@@ -7,6 +7,11 @@ let limiteDeNumeroSorteado = 10;
 //variavel para armazenar o numero gerado da funcao
 let numeroAleatorio = gerarNumero();
 
+//alert criado para auxiliar o usuário com o objetivo do jogo
+alert(
+  `Tente adivinhar o número secreto... digite um número de 1 até ${limiteDeNumeroSorteado} e teste sua sorte!`
+);
+
 //funcao que gera um numero aleatorio para o jogo
 function gerarNumero() {
   //variavel criada para que se possa acrescentar os numeros sorteados na nossa lista, evitando repetir os numeros sorteados
