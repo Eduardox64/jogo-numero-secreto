@@ -9,7 +9,7 @@ let numeroAleatorio = gerarNumero();
 
 //alert criado para auxiliar o usuário com o objetivo do jogo
 alert(
-  `Tente adivinhar o número secreto... digite um número de 1 até ${limiteDeNumeroSorteado} e teste sua sorte!`
+  `🎯 Bem-vindo ao Jogo do Número Secreto!\n\nSeu desafio: adivinhar um número de 1 a ${limiteDeNumeroSorteado}.\n\nQuando estiver pronto, feche esta mensagem e comece a jogar. Boa sorte! 🍀`
 );
 
 //funcao que gera um numero aleatorio para o jogo
